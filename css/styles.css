@@ -6,5 +6,44 @@ body {
 
 img {
   display: block;
-  max-width: 100%;
+  max-width: 100%; 
+}
+
+.images {
+  display: block;
+  margin-left:70px ;
+  display: block;
+  width: 50%;
+}
+
+div{
+  margin-bottom: 100px;;
+}
+
+
+header {
+  color:#efd433;
+  text-align: center;
+  text-justify: distribute;
+}
+
+h1 {
+  letter-spacing: 5px;
+}
+
+nav {
+  font-family: 'Space Grotesk', sans-serif;
+  text-align: center;
+  padding: 50px;
+  margin-bottom: 100px;
+  border-bottom-left-radius: 100px; 
+  border-bottom-right-radius: 100px;
+  background: #0e1847;
+}
+
+a {
+  color:#efd433;
+  background-color:#92000b ;
+  border-radius: 10px;
+  padding: 10px;
 }
