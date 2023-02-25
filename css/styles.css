@@ -15,10 +15,13 @@ img {
   display: block;
   width: 50%;
 }
-
+/*
+atención, sacar o corregir class d .image 
+*/
 .image {
   margin-bottom: 200px;
 }
+
 div{
   margin-bottom: 100px;;
 }
@@ -33,15 +36,23 @@ header {
 h1 {
   font-family: 'Gloock', serif;
   letter-spacing: 5px;
+  border: solid 3px #efd433 ;
+  padding-top:  10px; ;
+  padding-bottom: 10px;
 }
 
 nav {
-  text-align: center;
+
   padding: 50px;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
   border-bottom-left-radius: 100px; 
   border-bottom-right-radius: 100px;
   background: #0e1847;
+}
+.button {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 }
 
 a {
@@ -50,7 +61,6 @@ a {
   background-color:#92000b ;
   border-radius: 10px;
   padding: 10px;
-
 }
 
 h2 {
@@ -61,19 +71,22 @@ h2 {
   border-radius: 50px;
   padding-top: 25px;
   padding-bottom: 25px;
+  letter-spacing: 2px;
 }
 
 p {
   color:#efd433;
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: 'Space Grotesk' ;
 }
 
-.footer {
-  display: flex;
+footer {
+  padding: 50px;
+  border-top-left-radius: 100px; 
+  border-top-right-radius: 100px;
+  background: #0e1847;
+  
 }
 
-.element {
-  width: 200%;
-  height: 200%;
-  clip-path: polygon(0% 0%, 100% 11%, 100% 50%, 24% 100%, 0% 100%);
+.end {
+  background-color: #7c020c;
 }
