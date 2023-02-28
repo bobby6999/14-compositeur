@@ -42,7 +42,7 @@ h1 {
 }
 
 nav {
-
+  
   padding: 50px;
   margin-bottom: 50px;
   border-bottom-left-radius: 100px; 
@@ -58,14 +58,12 @@ nav {
 a {
   font-family: 'Space Grotesk', sans-serif;
   color:#efd433;
-  background-color:#92000b ;
-  border-radius: 10px;
   padding: 10px;
 }
 
 h2 {
   font-family: 'Imbue', serif;
-  text-align: center;
+  text-align: left;
   color:#efd433;
   font-size: 40px;
   font-weight: 600;
@@ -78,6 +76,7 @@ h2 {
 p {
   color:#efd433;
   font-family: 'Space Grotesk' ;
+  background-image: url(../img/SHAPE1.png);
 }
 
 footer {
@@ -85,9 +84,8 @@ footer {
   border-top-left-radius: 100px; 
   border-top-right-radius: 100px;
   background: #0e1847;
+  text-align: center;
   
 }
 
-.end {
-  background-color: #7c020c;
-}
+
