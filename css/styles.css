@@ -64,14 +64,15 @@ a {
 }
 
 h2 {
-  font-family: 'Gloock', serif;
+  font-family: 'Imbue', serif;
   text-align: center;
   color:#efd433;
-  background-color: #92000b;
-  border-radius: 50px;
-  padding-top: 25px;
-  padding-bottom: 25px;
-  letter-spacing: 2px;
+  font-size: 40px;
+  font-weight: 600;
+  font-stretch: narrower;
+
+
+  
 }
 
 p {
