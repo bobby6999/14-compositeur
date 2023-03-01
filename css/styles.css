@@ -23,8 +23,8 @@ atención, sacar o corregir class d .image
 }
 
 div{
-  margin-bottom: 100px;;
-}
+  margin-bottom: 100px;
+  }
 
 
 header {
@@ -76,7 +76,6 @@ h2 {
 p {
   color:#efd433;
   font-family: 'Space Grotesk' ;
-  background-image: url(../img/SHAPE1.png);
 }
 
 footer {
@@ -89,3 +88,41 @@ footer {
 }
 
 
+.yoko-title {
+  background-image:url(../img/SHAPE1.png);
+  background-size: cover;
+  background-repeat:no-repeat;
+  background-position:center;
+}
+
+.show-title {
+  background-image:url(../img/SHAPE2.png);
+  background-size: cover;
+  background-repeat:no-repeat;
+  background-position:center;
+}
+.paragraphe-1 {
+  background-image:url(../img/SHAPE3.png);
+  background-size: cover;
+  background-repeat:no-repeat;
+  background-position:center;
+}
+.paragraphe-2 {
+  background-image:url(../img/SHAPE5.png);
+  background-size: cover;
+  background-repeat:no-repeat;
+  background-position:center;
+}
+.paragraphe-3 {
+  background-image:url(../img/SHAPE6.png);
+  background-size: cover;
+  background-repeat:no-repeat;
+  background-position:center;
+}
+
+.musician {
+  background-image:url(../img/SHAPE7.png);
+  background-size: cover;
+  background-repeat:no-repeat;
+  background-position:right;
+}
